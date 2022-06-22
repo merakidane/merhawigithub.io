@@ -2,6 +2,9 @@ body{
     background-color:darkslategray
    
 }
+body>div::first-letter,ol::first-letter,li::first-letter,p::first-letter{
+    font-size: 1.5em;
+}
 p ,li,h4{
     color: white;
 }
@@ -13,8 +16,12 @@ h3,h1{
 }
 li a{
     color: red;
+    text-decoration-line: none;
 }
-
+li a:hover{
+    text-decoration: underline;
+    
+}
   .pics{
     display: inline-flex;
     margin: auto;
@@ -25,4 +32,8 @@ li a{
    padding-left: 20px;
     width: 100%;
     height: 100%;
+  }
+  ol{
+    display: flex;
+    flex-direction: column-reverse;
   }
