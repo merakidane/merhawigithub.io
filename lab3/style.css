@@ -36,7 +36,10 @@ float: right;
 margin-bottom: 20px;
 
 }
-
+#producttable{
+    border: 1px solid black;
+    
+}
 #producttable{
     padding-left: 100px;
 }
@@ -50,7 +53,12 @@ border-style: solid;
 background-color: red;
 }
 #order{
-    margin-left: 1000px;
+    margin-left: 875px;
     width: 100px;
     height: 40px;
+}
+table, th{
+    border: 1px solid black;
+  border-collapse: collapse;
+   
 }
