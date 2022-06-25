@@ -1,0 +1,56 @@
+
+body{
+    border: 2px solid black;
+}
+
+.nav{
+    
+    background-color:red;
+    height: 40px;
+    border: 5px solid black;
+  
+   
+}
+p{
+    padding-left: 500px;
+    
+    position: absolute
+}
+img{
+    float: left;
+    width: 70px;
+    margin-left:10px ;
+    height: 100%;
+   
+}
+h3{
+    padding-left: 100px;
+}
+
+#b{
+
+width: 70px;
+height: 100%;
+
+float: right;
+margin-bottom: 20px;
+
+}
+
+#producttable{
+    padding-left: 100px;
+}
+#shoppingtable{
+width: 90%;
+padding-left: 100px;
+border-style: solid;
+
+}
+#shoppingtable table tr:last-child{
+background-color: red;
+}
+#order{
+    margin-left: 1000px;
+    width: 100px;
+    height: 40px;
+}
