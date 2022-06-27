@@ -43,12 +43,12 @@
 
 
 input{
-    left:100 px;
+    left:100px;
 }
 
 select{
     font-size:medium;
-    width: 80;
+    width: 80px;
 }
 
 form, p {
