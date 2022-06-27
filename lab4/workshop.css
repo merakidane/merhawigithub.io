@@ -1,0 +1,85 @@
+.header{
+    border: 2px solid black;
+    background-color:darkslategray;
+    margin-top: 100px;
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.flexContainer{
+    display: flex;
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container2{
+   padding-top: 20px;
+}
+
+.buttons{
+    background-color: lightgray;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+    
+.buttons>input{
+    background-color:darkolivegreen;
+    
+}
+
+.submit{
+    margin-left: 600px;
+}
+
+.information{
+    font-size: large;
+    font-weight: bold;
+    margin-right: 100px;
+}
+
+
+
+input{
+    left:100 px;
+}
+
+select{
+    font-size:medium;
+    width: 80;
+}
+
+form, p {
+    margin-left: 10px;
+}
+
+.paragraph{
+    text-decoration-line: underline;
+}
+
+.title{
+    font-size:xx-large;
+    margin-right: 100px;
+}
+
+.label{
+    display:inline-flex;
+    font-size: large;
+    font-weight: bold;
+    width: 200px;
+}
+
+.radio{
+    font-size: small;
+}
+
+.box{
+    margin-left: 200px;
+}
+.val{
+
+    margin-left: 20px;
+    margin-top: 40px;
+}
